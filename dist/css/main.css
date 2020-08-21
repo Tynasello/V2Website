@@ -1,0 +1,540 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+#index {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6rem;
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(0deg, #21618C, #D6EAF8); }
+  #index #name {
+    margin-bottom: 0; }
+    #index #name h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 4rem;
+      text-align: center;
+      margin: 0; }
+    #index #name h3 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.5rem;
+      text-align: center;
+      margin-top: 2rem; }
+  #index #shortcuts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    #index #shortcuts .icon {
+      margin: 2rem;
+      display: flex;
+      flex-direction: column; }
+      #index #shortcuts .icon a {
+        align-items: center;
+        justify-content: center;
+        text-align: center; }
+        #index #shortcuts .icon a i {
+          font-size: 3rem;
+          color: white; }
+        #index #shortcuts .icon a :hover {
+          color: #D4E6F1;
+          transform: scale(1.1);
+          transition: all .5s ease-in-out; }
+      #index #shortcuts .icon p {
+        font-size: .8rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center; }
+  #index footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3rem; }
+    #index footer img {
+      height: 30px; }
+    #index footer #text {
+      display: flex;
+      flex-direction: column; }
+      #index footer #text p {
+        text-align: center;
+        margin: 0;
+        font-size: .8rem; }
+    #index footer #links {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      #index footer #links a {
+        text-align: center;
+        color: white;
+        margin: 1rem .6rem;
+        font-size: .8rem; }
+        #index footer #links a :hover {
+          color: #D4E6F1;
+          transform: scale(1.1);
+          transition: all .5s ease-in-out; }
+    #index footer #end {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      #index footer #end .end {
+        margin: 0 2rem; }
+      #index footer #end p {
+        font-size: .8rem; }
+
+#about {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6rem;
+  color: #424949;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0; }
+  #about #main {
+    display: flex;
+    flex-direction: row; }
+    #about #main #text-section #back-home {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+      margin: 2rem; }
+      #about #main #text-section #back-home img {
+        width: 30px;
+        height: 30px;
+        margin-right: .5rem;
+        margin-left: 8rem; }
+      #about #main #text-section #back-home a {
+        font-family: "proxima-nova", sans-serif;
+        line-height: 1rem;
+        font-size: 1.2rem;
+        color: #424949;
+        text-decoration: none; }
+        #about #main #text-section #back-home a :hover {
+          text-decoration: underline; }
+    #about #main #text-section #text {
+      margin: 15rem 10rem; }
+      #about #main #text-section #text h1 {
+        font-size: 3rem;
+        font-family: "proxima-nova", sans-serif;
+        margin-bottom: 3rem; }
+      #about #main #text-section #text h2 {
+        margin-bottom: 1rem;
+        font-size: 1rem; }
+      #about #main #text-section #text .contacts {
+        margin-top: 1rem; }
+        #about #main #text-section #text .contacts a {
+          color: #424949;
+          font-size: .8rem;
+          margin-right: .3rem; }
+          #about #main #text-section #text .contacts a :hover {
+            transform: scale(1.1);
+            transition: all .5s ease-in-out; }
+    #about #main #image-section img {
+      height: 100vh; }
+
+#achievements {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6rem;
+  color: #424949;
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0; }
+  #achievements #main {
+    display: flex;
+    flex-direction: row; }
+    #achievements #main #text-section #back-home {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+      margin: 2rem; }
+      #achievements #main #text-section #back-home img {
+        width: 30px;
+        height: 30px;
+        margin-right: .5rem;
+        margin-left: 8rem; }
+      #achievements #main #text-section #back-home a {
+        font-family: "proxima-nova", sans-serif;
+        line-height: 1rem;
+        font-size: 1.2rem;
+        color: #424949;
+        text-decoration: none; }
+        #achievements #main #text-section #back-home a :hover {
+          text-decoration: underline; }
+    #achievements #main #text-section #text {
+      margin: 6rem 10rem; }
+      #achievements #main #text-section #text h1 {
+        font-family: "proxima-nova", sans-serif;
+        font-size: 3rem;
+        margin-bottom: 3rem; }
+      #achievements #main #text-section #text h2 {
+        margin-bottom: 1rem;
+        font-size: 1.3rem; }
+      #achievements #main #text-section #text h3 {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        text-decoration: underline; }
+      #achievements #main #text-section #text p {
+        margin-bottom: 2rem;
+        max-width: 30vw; }
+    #achievements #main #image-section img {
+      height: 100vh;
+      position: absolute;
+      right: 0; }
+
+#projects {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6rem;
+  color: #424949;
+  height: 100vh;
+  padding: 0;
+  margin: 0; }
+  #projects #main {
+    display: flex;
+    flex-direction: row; }
+    #projects #main #text-section #back-home {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+      margin: 2rem; }
+      #projects #main #text-section #back-home img {
+        width: 30px;
+        height: 30px;
+        margin-right: .5rem;
+        margin-left: 8rem; }
+      #projects #main #text-section #back-home a {
+        font-family: "proxima-nova", sans-serif;
+        line-height: 1rem;
+        font-size: 1.2rem;
+        color: #424949;
+        text-decoration: none; }
+        #projects #main #text-section #back-home a :hover {
+          text-decoration: underline; }
+    #projects #main #text-section #text {
+      margin: 4rem 10rem; }
+      #projects #main #text-section #text h1 {
+        font-family: "proxima-nova", sans-serif;
+        font-size: 3rem;
+        margin-bottom: 2.5rem; }
+      #projects #main #text-section #text h2 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-size: 1.1rem; }
+      #projects #main #text-section #text p {
+        margin-bottom: 1rem;
+        max-width: 35vw; }
+      #projects #main #text-section #text a {
+        border-radius: 0;
+        padding: .6rem .8rem;
+        box-shadow: 4px 4px 8px #424949;
+        position: relative;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.6rem;
+        color: #424949;
+        text-decoration: none;
+        font-size: .9rem; }
+        #projects #main #text-section #text a:hover {
+          background-color: #85929E;
+          color: whitesmoke;
+          animation-name: animate1;
+          animation: animate1 .5s forwards ease-in-out;
+          transition: all .5s; }
+
+@keyframes animate1 {
+  from {
+    top: 0;
+    left: 0; }
+  to {
+    top: 4px;
+    left: 4px;
+    box-shadow: none; } }
+    #projects #main #image-section {
+      display: flex;
+      flex-direction: column; }
+      #projects #main #image-section img {
+        height: 100vh; }
+      #projects #main #image-section .one {
+        position: absolute;
+        right: 0; }
+      #projects #main #image-section .two {
+        position: absolute;
+        right: 0;
+        top: 100vh;
+        transform: scaley(-1); }
+
+#arduino-robot {
+  background-color: lightgray;
+  max-width: 60vw;
+  margin: auto; }
+  #arduino-robot #back-home-proj {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1rem; }
+    #arduino-robot #back-home-proj img {
+      width: 30px;
+      height: 30px;
+      margin-right: .5rem; }
+    #arduino-robot #back-home-proj a {
+      font-family: "proxima-nova", sans-serif;
+      line-height: 1rem;
+      font-size: 1.2rem;
+      color: #424949;
+      text-decoration: none; }
+      #arduino-robot #back-home-proj a :hover {
+        text-decoration: underline; }
+  #arduino-robot .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin: 1rem 0;
+    border-radius: 5px; }
+    #arduino-robot .card .text-sec {
+      margin: 2rem 1rem; }
+      #arduino-robot .card .text-sec h1 {
+        font-family: 'Lora', serif;
+        color: #444444;
+        font-size: 2.5rem;
+        margin-bottom: .5rem;
+        font-weight: normal; }
+      #arduino-robot .card .text-sec h3 {
+        font-family: 'Lora', serif;
+        color: #444444;
+        text-decoration: none;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        font-weight: normal; }
+      #arduino-robot .card .text-sec p {
+        font-family: 'Montserrat', sans-serif;
+        color: #444444;
+        font-size: .9rem; }
+        #arduino-robot .card .text-sec p .github-link {
+          padding: .6rem .8rem;
+          box-shadow: 4px 4px 8px #424949;
+          font-family: 'Montserrat', sans-serif;
+          line-height: 1.6rem;
+          color: whitesmoke;
+          background-color: #424949;
+          text-decoration: none;
+          font-size: .9rem;
+          border-radius: 3px; }
+          #arduino-robot .card .text-sec p .github-link:hover {
+            background-color: #999999;
+            transition: all .5s; }
+      #arduino-robot .card .text-sec video {
+        width: 100%; }
+    #arduino-robot .card .image-sec {
+      margin: auto; }
+      #arduino-robot .card .image-sec img {
+        height: 250px;
+        margin: 1rem; }
+
+@media (max-width: 1024px) {
+  #about #main #image-section img {
+    display: none; }
+  #achievements {
+    overflow: scroll; }
+    #achievements #main #text-section #text {
+      margin-top: 4rem; }
+    #achievements #main #image-section img {
+      display: none; }
+  #projects {
+    overflow: scroll; }
+    #projects #main #text-section #text {
+      margin-top: 4rem; }
+      #projects #main #text-section #text p {
+        max-width: 60vw; }
+    #projects #main #image-section img {
+      display: none; }
+  #arduino-robot {
+    max-width: 80vw; }
+    #arduino-robot .card {
+      display: flex;
+      flex-direction: column; } }
+
+@media (max-width: 600px){
+  #index {
+    justify-content: normal;
+  }
+
+  #index #name {
+    margin-top: 5rem;
+  }
+
+  #index #name h1 {
+    font-size: 3.5rem;
+    margin-top: 4.5rem;
+  }
+
+  #index #name h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  #index #shortcuts {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: .5rem 2rem;
+  }
+
+  #index #shortcuts .icon {
+    margin: 1rem 0;
+  }
+
+  #index #shortcuts .icon a i {
+    font-size: 1.5rem;
+  }
+
+  #index #shortcuts .icon p {
+    font-size: .8rem;
+  }
+
+  #index footer {
+    margin-bottom: 1rem;
+  }
+
+  #index footer img {
+    height: 25px;
+  }
+
+  #index footer #text p {
+    max-width: 85vw;
+    font-size: .5rem;
+  }
+
+  #index footer #links a {
+    margin: .6rem .4rem;
+    font-size: .6rem;
+  }
+
+  #index footer #end .end {
+    margin: 0 0.2rem;
+  }
+
+  #index footer #end p {
+    font-size: .5rem;
+  }
+
+  #about {
+    overflow: scroll;
+  }
+
+  #about #main #image-section img {
+    display: none;
+  }
+
+  #about #main #text-section #back-home {
+    margin: 1rem;
+  }
+
+  #about #main #text-section #back-home img {
+    margin-left: 0;
+  }
+
+  #about #main #text-section #back-home a {
+    font-size: 1rem;
+  }
+
+  #about #main #text-section #text {
+    margin: 1rem;
+  }
+
+  #about #main #text-section #text h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+
+  #about #main #text-section #text p {
+    font-size: .8rem;
+  }
+
+  #achievements {
+    overflow: scroll;
+  }
+
+  #achievements #main #image-section img {
+    display: none;
+  }
+
+  #achievements #main #text-section #back-home {
+    margin: 1rem;
+  }
+
+  #achievements #main #text-section #back-home img {
+    margin-left: 0;
+  }
+
+  #achievements #main #text-section #back-home a {
+    font-size: 1rem;
+  }
+
+  #achievements #main #text-section #text {
+    margin: 1rem;
+  }
+
+  #achievements #main #text-section #text h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+
+  #achievements #main #text-section #text p {
+    max-width: 80vw;
+    font-size: .8rem;
+  }
+
+  #projects #main #text-section #back-home {
+    margin: 1rem 0 2rem 0;
+  }
+
+  #projects #main #text-section #back-home img {
+    margin-left: 1rem;
+  }
+
+  #projects #main #text-section #back-home a {
+    font-size: 1rem;
+  }
+
+  #projects #main #text-section #text {
+    margin: 2rem 1rem;
+  }
+
+  #projects #main #text-section #text h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #projects #main #text-section #text h2 {
+    margin-top: 1.4rem;
+    font-size: 1.1rem;
+  }
+
+  #projects #main #text-section #text p {
+    margin-bottom: 1rem;
+    max-width: 80vw;
+    font-size: .8rem;
+  }
+
+  #projects #main #text-section #text a {
+    padding: .5rem .7rem;
+    font-size: .8rem;
+  }
+
+  #arduino-robot .card .image-sec img {
+    width: 70vw;
+    height: auto;
+  }
+}

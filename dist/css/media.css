@@ -1,0 +1,196 @@
+@media (max-width: 1024px) {
+  #about #main #image-section img {
+    display: none; }
+  #achievements {
+    overflow: scroll; }
+    #achievements #main #text-section #text {
+      margin-top: 4rem; }
+    #achievements #main #image-section img {
+      display: none; }
+  #projects {
+    overflow: scroll; }
+    #projects #main #text-section #text {
+      margin-top: 4rem; }
+      #projects #main #text-section #text p {
+        max-width: 60vw; }
+    #projects #main #image-section img {
+      display: none; }
+  #arduino-robot {
+    max-width: 80vw; }
+    #arduino-robot .card {
+      display: flex;
+      flex-direction: column; } }
+
+@media (max-width: 600px) {
+  #index {
+    justify-content: normal;
+  }
+
+  #index #name {
+    margin-top: 5rem;
+  }
+
+  #index #name h1 {
+    font-size: 3.5rem;
+    margin-top: 4.5rem;
+  }
+
+  #index #name h3 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  #index #shortcuts {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: .5rem 2rem;
+  }
+
+  #index #shortcuts .icon {
+    margin: 1rem 0;
+  }
+
+  #index #shortcuts .icon a i {
+    font-size: 1.5rem;
+  }
+
+  #index #shortcuts .icon p {
+    font-size: .8rem;
+  }
+
+  #index footer {
+    margin-bottom: 1rem;
+  }
+
+  #index footer img {
+    height: 25px;
+  }
+
+  #index footer #text p {
+    max-width: 85vw;
+    font-size: .5rem;
+  }
+
+  #index footer #links a {
+    margin: .6rem .4rem;
+    font-size: .6rem;
+  }
+
+  #index footer #end .end {
+    margin: 0 0.2rem;
+  }
+
+  #index footer #end p {
+    font-size: .5rem;
+  }
+
+  #about {
+    overflow: scroll;
+  }
+
+  #about #main #image-section img {
+    display: none;
+  }
+
+  #about #main #text-section #back-home {
+    margin: 1rem;
+  }
+
+  #about #main #text-section #back-home img {
+    margin-left: 0;
+  }
+
+  #about #main #text-section #back-home a {
+    font-size: 1rem;
+  }
+
+  #about #main #text-section #text {
+    margin: 1rem;
+  }
+
+  #about #main #text-section #text h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+
+  #about #main #text-section #text p {
+    font-size: .8rem;
+  }
+
+  #achievements {
+    overflow: scroll;
+  }
+
+  #achievements #main #image-section img {
+    display: none;
+  }
+
+  #achievements #main #text-section #back-home {
+    margin: 1rem;
+  }
+
+  #achievements #main #text-section #back-home img {
+    margin-left: 0;
+  }
+
+  #achievements #main #text-section #back-home a {
+    font-size: 1rem;
+  }
+
+  #achievements #main #text-section #text {
+    margin: 1rem;
+  }
+
+  #achievements #main #text-section #text h1 {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+
+  #achievements #main #text-section #text p {
+    max-width: 80vw;
+    font-size: .8rem;
+  }
+
+  #projects #main #text-section #back-home {
+    margin: 1rem 0 2rem 0;
+  }
+
+  #projects #main #text-section #back-home img {
+    margin-left: 1rem;
+  }
+
+  #projects #main #text-section #back-home a {
+    font-size: 1rem;
+  }
+
+  #projects #main #text-section #text {
+    margin: 2rem 1rem;
+  }
+
+  #projects #main #text-section #text h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #projects #main #text-section #text h2 {
+    margin-top: 1.4rem;
+    font-size: 1.1rem;
+  }
+
+  #projects #main #text-section #text p {
+    margin-bottom: 1rem;
+    max-width: 80vw;
+    font-size: .8rem;
+  }
+
+  #projects #main #text-section #text a {
+    padding: .5rem .7rem;
+    font-size: .8rem;
+  }
+
+  #arduino-robot #card #image-sec img {
+    width: 80vw;
+  }
+}
+
